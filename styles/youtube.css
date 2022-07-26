@@ -53,5 +53,40 @@ p{
     row-gap: 40px ;
 }
 .header{
-     
+     height: 55px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+
+}
+.left_section{
+    display: flex;
+    align-items: center;
+}    
+.menu_bar{
+    height: 30px;
+
+}
+.search_button{
+    
+}
+.saerch_icon{
+    height: 30px;
+}
+.youtube_icon{
+    height: 30px;
+}
+.middle_section{
+    background-color: crimson;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+}
+.right_section{
+    background-color: lightpink;
+    width: 200px;
+}
+body{
+    margin: 0;
 }
